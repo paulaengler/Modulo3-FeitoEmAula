@@ -3,7 +3,8 @@ const bcrypt = require('bcrypt');
 
 class UserController {
     async findAll(request, response) {
-        const data = await User.findAll({attributes: ['id', 'name', 'email'], include: {association: 'roles', attributes: ['id', 'description']}})
+        // const data = await User.findAll({attributes: ['id', 'name', 'email'], include: {association: 'roles', attributes: ['id', 'description']}})
+        const data = await User.findAll({attributes: ['id', 'name', 'email']})
         const total = await User.count()
 
         return response.status(200).send({ records: data, total })
