@@ -1,0 +1,10 @@
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Estilos para o modo escuro */
+  .dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+  }

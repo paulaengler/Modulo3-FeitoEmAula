@@ -1,0 +1,30 @@
+.lista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0);
+  gap: 10px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0; /* Remove o espaçamento interno padrão */
+  margin: 0; /* Remove a margem padrão */
+}
+
+.btn-adicionar {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: 5px;
+}
+
+.btn-remover {
+  background-color: red;
+  color: #fff;
+  padding: 10px 20px;
+  border: 5px;
+}
